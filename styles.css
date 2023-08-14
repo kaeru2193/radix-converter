@@ -1,0 +1,44 @@
+main {
+    max-width: 70%;
+    margin: auto;
+}
+
+h1, p {
+    text-align: center;
+}
+
+.input {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    padding: 10px;
+    width: 0;
+    white-space: nowrap;
+}
+
+#display {
+    width: 100%;
+    resize: none;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px; /* (buttonの高さ / 2) の値 */
+    border: none;
+    background-color: #014f41;
+    color: white;
+}
+
+h2 {
+    border-bottom: 2px solid #014f41;
+}
+
+footer {
+    margin-top: 50px;
+}

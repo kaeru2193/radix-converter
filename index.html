@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="assets/favicon.ico">
+        <title>進数変換機</title>
+    </head>
+    <body>
+        <main>
+            <h1>進数変換機</h1>
+            <p>創作のお供に。</p>
+            <h2>入力</h2>
+            <table>
+                <tr>
+                    <th><label>変換する数値：</label></th>
+                    <td><input class="input" type="number" id="number" value="0"></td>
+                </tr>
+                <tr>
+                    <th><label>変換元の進数[2-36]：</label></th>
+                    <td><input class="input" type="number" id="beforebase" value="10"></td>
+                </tr>
+                <tr>
+                    <th><label>変換する進数[2-36]：</label></th>
+                    <td><input class="input" type="number" id="afterbase" value="12"></td>
+                </tr>
+                <tr>
+                    <th><label>有効桁数 (小数のみ)：</label></th>
+                    <td><input class="input" type="number" id="digit" value="100"></td>
+                </tr>
+            </table>
+            <button id="convert">変換！</button>
+            <h2>結果</h2>
+            <textarea id="display" rows="3" readonly></textarea>
+        </main>
+        <footer>
+            <p>制作：かえる</p>
+        </footer>
+    </body>
+    <script src='dist/bundle.js'></script>
+    <link rel="stylesheet" href="./styles.css">
+</html>
